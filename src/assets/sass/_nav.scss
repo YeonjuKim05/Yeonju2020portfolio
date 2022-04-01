@@ -1,0 +1,29 @@
+//navbar
+
+.navbar {
+  img {
+    width: 90px;
+  }
+  padding: 4vw;
+  justify-content: flex-end;
+}
+
+.navbar nav {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  font-weight: lighter;
+  color: $white;
+  font-size: 18px;
+  margin-left: 68px;
+  text-decoration: none;
+}
+
+nav a.router-link-exact-active {
+  font-weight: bold;
+}

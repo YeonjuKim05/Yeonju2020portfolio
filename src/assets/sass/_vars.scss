@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+//font
+$body-font: "Roboto", sans-serif;
+
+//color
+$black: #161616;
+$light-grey: #a7a7a7;
+$dark-grey: #595959;
+$white: #eaeaea;
+
+//style
+$footer-top-margin: 350px;
+
+//reset
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  padding-top: 2vw;
+  background-color: $black;
+  font-family: $body-font;
+}
+
+.container-wrapper {
+  background-color: $black;
+}

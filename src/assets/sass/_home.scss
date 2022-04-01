@@ -1,0 +1,43 @@
+//main head text
+
+.mainText {
+  width: 1088px;
+  h1 {
+    font-weight: 300;
+    font-size: 50px;
+    color: $light-grey;
+  }
+  .h1-2 {
+    font-weight: 500;
+    font-size: 50px;
+    color: $white;
+  }
+  padding-bottom: 210px;
+}
+
+.home {
+  margin-top: 270px;
+  padding: 0 4vw;
+}
+
+//profile
+.profile {
+  width: 100%;
+  display: flex;
+  padding-bottom: $footer-top-margin;
+
+  .profile-img {
+    flex-basis: 1080px;
+    width: 1080px;
+    height: 728px;
+    background-color: $dark-grey;
+  }
+}
+
+.profile-text {
+  margin-left: 25px;
+  display: block;
+  .col-1 {
+    width: 100%;
+  }
+}
