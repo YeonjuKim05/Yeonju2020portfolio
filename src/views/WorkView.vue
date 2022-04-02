@@ -4,7 +4,7 @@
       <!--list starts-->
       <div class="work-card-list">
         <router-link to="/portfolio/FanshaweMap">
-          <img src="@/assets/images/fanshawe-Map.jpg" alt="fanshawe map" />
+          <img src="@/assets/images/map-main.png" alt="fanshawe map" />
           <div class="card-hover"><p>Fanshawe College Map</p></div></router-link
         >
       </div>
