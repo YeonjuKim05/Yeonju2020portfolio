@@ -23,27 +23,35 @@
 
         <div class="profile-text">
           <div class="col-1">
-            <p>2013-2015</p>
-            <p>Diploma of Education</p>
-            <p>Visual Communication Design in South Korea</p>
+            <p class="profile-year">2013-2015</p>
+            <p class="profile-degree">Diploma of Education</p>
+            <p class="profile-program">
+              Visual Communication Design in South Korea
+            </p>
           </div>
 
           <div class="col-1">
-            <p>2013-2015</p>
-            <p>Diploma of Education</p>
-            <p>Visual Communication Design in South Korea</p>
+            <p class="profile-year">2015-2015</p>
+            <p class="profile-degree">Internship</p>
+            <p class="profile-program">
+              Graphic Designer at Design Agency in Seoul
+            </p>
           </div>
 
           <div class="col-1">
-            <p>2013-2015</p>
-            <p>Diploma of Education</p>
-            <p>Visual Communication Design in South Korea</p>
+            <p class="profile-year">2016-2018</p>
+            <p class="profile-degree">Graphic Designer</p>
+            <p class="profile-program">
+              Graphic Designer at Video Production Agency in Seoul
+            </p>
           </div>
 
           <div class="col-1">
-            <p>2013-2015</p>
-            <p>Diploma of Education</p>
-            <p>Visual Communication Design in South Korea</p>
+            <p class="profile-year">2020-2022</p>
+            <p class="profile-degree">Diploma of Education</p>
+            <p class="profile-program">
+              Interactive Media Design at Fanshawe in Canada
+            </p>
           </div>
         </div>
       </div>

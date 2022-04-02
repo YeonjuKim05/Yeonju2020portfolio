@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 266px;
+  border-top: 2px solid $dark-grey;
+  padding-top: 38px;
+  margin-top: $footer-top-margin;
+  p {
+    font-weight: $font-light;
+    font-size: 20px;
+    color: $light-grey;
+  }
+}
+
+.footer-col-2 {
+  text-align: right;
+  li {
+    font-size: 22px;
+    list-style: none;
+    padding-bottom: 8px;
+  }
+  a {
+    text-decoration: none;
+    color: $white;
+    font-weight: $font-regular;
+  }
+}

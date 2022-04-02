@@ -2,12 +2,16 @@
 
 //font
 $body-font: "Roboto", sans-serif;
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
 
 //color
 $black: #161616;
-$light-grey: #a7a7a7;
+$light-grey: #999999;
 $dark-grey: #595959;
 $white: #eaeaea;
+$point-color: #999999;
 
 //style
 $footer-top-margin: 350px;
@@ -20,12 +24,12 @@ $footer-top-margin: 350px;
   padding: 0;
   box-sizing: border-box;
   font-family: roboto, sans-serif;
+  font-weight: $font-regular;
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 #app {
@@ -35,5 +39,59 @@ body {
 }
 
 .container-wrapper {
+  font-family: $body-font;
+  padding: 0 4vw;
   background-color: $black;
+}
+
+//reset
+//add reset css
+p {
+  margin: 0 !important;
+  line-height: 1.3 !important;
+}
+
+h1 {
+  margin: 0 !important;
+}
+
+a {
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $point-color !important;
+}
+
+//button
+
+.outline-btn {
+  a {
+    text-decoration: none;
+    color: $white;
+  }
+  text-align: center;
+  margin-top: 80px;
+  width: 240px;
+  border: 1.8px solid $white;
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 25px 20px;
+  text-decoration: none;
+  color: $white;
+  font-size: 28px;
+  font-weight: $font-light;
+  overflow: hidden;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+
+.outline-btn:hover {
+  a {
+    text-decoration: none;
+    color: $point-color;
+  }
+  border: 1.8px solid $point-color;
+  transform: translate(8px, -10px);
 }

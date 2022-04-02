@@ -1,27 +1,31 @@
 //navbar
 
 .navbar {
+  nav {
+    display: flex;
+  }
   img {
     width: 90px;
   }
-  padding: 4vw;
-  justify-content: flex-end;
-}
 
-.navbar nav {
-  display: flex;
+  padding-top: 26px !important;
+  justify-content: space-between;
 }
 
 nav li {
+  text-align: right;
   list-style: none;
+  width: 180px;
 }
 
 nav a {
+  width: 100px;
   font-weight: lighter;
   color: $white;
   font-size: 18px;
-  margin-left: 68px;
+  letter-spacing: 2px;
   text-decoration: none;
+  transition: 0.4s ease-in-out;
 }
 
 nav a.router-link-exact-active {

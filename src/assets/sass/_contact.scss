@@ -1,0 +1,28 @@
+.contact {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-wrapper {
+  padding-top: 80px;
+  h1 {
+    font-size: 88px;
+    color: $white;
+  }
+  text-align: center;
+}
+
+.links {
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+.width-wide {
+  width: 360px;
+}
