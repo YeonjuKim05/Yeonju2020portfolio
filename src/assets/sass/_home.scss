@@ -23,8 +23,11 @@
 .profile {
   width: 100%;
   display: flex;
-
+  overflow: hidden;
   .profile-img {
+    img {
+      width: 100%;
+    }
     flex-basis: 1200px;
     width: 1080px;
     height: 728px;

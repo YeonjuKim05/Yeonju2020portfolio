@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Cutex Beer Bottle 3D</h1></div>
-    <div class="pf-image-banner-beer">
+    <div data-aos="fade-up" class="pf-image-banner-beer">
       <img src="@/assets/images/beer2.gif" alt="beer" />
     </div>
     <div class="pf-info">
@@ -27,7 +27,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           Created by mixing the Cute'x brand with Tetley's, this project focuses
           on working with beer bottles as a 3D model. The website is designed

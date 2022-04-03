@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Sports Visualization HUD</h1></div>
-    <div class="pf-image-banner">
+    <div data-aos="fade-up" class="pf-image-banner">
       <img src="@/assets/images/fanshawe-1.png" alt="fanshawe map" />
     </div>
     <div class="pf-info">
@@ -32,7 +32,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           We performed a project to observe physical movements <br />occurring
           during boxing sports and visually show the resulting data.

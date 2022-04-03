@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Budweiser Promotion</h1></div>
-    <div class="pf-image-banner-beer">
+    <div data-aos="fade-up" class="pf-image-banner-beer">
       <img src="@/assets/images/budweiser-banner.png" alt="poster" />
     </div>
     <div class="pf-info">
@@ -23,7 +23,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           The Budweiser promotion landing page strongly represents the brand
           color and emphasizes information using fonts and images suitable for

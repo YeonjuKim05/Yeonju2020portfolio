@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Chat Application</h1></div>
-    <div class="pf-image-banner-chat">
+    <div data-aos="fade-up" class="pf-image-banner-chat">
       <img src="@/assets/images/chat-banner.png" alt="fanshawe map" />
     </div>
     <div class="pf-info">
@@ -23,7 +23,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           The chat app allows you to freely communicate with someone by your
           name or anonymously, and you can check who has accessed the screen.

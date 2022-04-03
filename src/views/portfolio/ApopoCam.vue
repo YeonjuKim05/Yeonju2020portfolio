@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Apopo Campaign</h1></div>
-    <div class="pf-image-banner-apopo">
+    <div data-aos="fade-up" class="pf-image-banner-apopo">
       <img src="@/assets/images/Mockup-apopo-run.gif" alt="apopo" />
     </div>
     <div class="pf-info">
@@ -36,7 +36,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           Our team carried out a campaign project by an organization called
           APOPO of NGO. <br />Apopo, which trains rats to detect landmines

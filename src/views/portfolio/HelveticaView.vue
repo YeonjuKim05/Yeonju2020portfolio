@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Hevetica Poster</h1></div>
-    <div class="pf-image-banner-beer">
+    <div data-aos="fade-up" class="pf-image-banner-beer">
       <img src="@/assets/images/poster.png" alt="poster" />
     </div>
     <div class="pf-info">
@@ -20,7 +20,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           After watching the documentary of Helvetica, I learned the birth of
           the font and the power of this font. As shown in the poster,
