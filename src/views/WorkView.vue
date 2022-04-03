@@ -76,7 +76,7 @@
       <!--BakeryShop-->
       <div data-aos="fade-up" class="work-card-list">
         <router-link to="/portfolio/BakeryShop">
-          <img src="@/assets/images/fanshawe-Map.jpg" alt="" />
+          <img src="@/assets/images/bakery_logo.png" alt="" />
           <div class="card-hover">
             <p>International Bakery</p>
           </div></router-link
