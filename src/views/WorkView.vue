@@ -73,10 +73,13 @@
         >
       </div>
 
+      <!--BakeryShop-->
       <div class="work-card-list">
-        <router-link to="/portfolio/BudweiserBeer">
+        <router-link to="/portfolio/BakeryShop">
           <img src="@/assets/images/fanshawe-Map.jpg" alt="" />
-          <div class="card-hover"><p>Fanshawe College Map</p></div></router-link
+          <div class="card-hover">
+            <p>International Bakery</p>
+          </div></router-link
         >
       </div>
     </div>
