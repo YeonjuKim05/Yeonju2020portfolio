@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Fanshawe College Map</h1></div>
-    <div class="pf-image-banner">
+    <div data-aos="fade-up" class="pf-image-banner">
       <img src="@/assets/images/fanshawe-1.png" alt="fanshawe map" />
     </div>
     <div class="pf-info">
@@ -24,7 +24,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           It is designed to make it easy for people to find the complex
           structure of the school. I redesigned the existing map and emphasized

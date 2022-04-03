@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="home">
-      <div class="mainText">
+      <div data-aos="fade-up" class="mainText">
         <h1>
           Hello, my name is
           <span class="h1-2">Yeonju Kim</span>
@@ -17,8 +17,8 @@
       </div>
 
       <div class="profile">
-        <div class="profile-img">
-          <!-- <img src="" alt="profile-image" /> -->
+        <div data-aos="fade-up" class="profile-img">
+          <img src="@/assets/images/yeonju.png" alt="profile-image" />
         </div>
 
         <div class="profile-text">

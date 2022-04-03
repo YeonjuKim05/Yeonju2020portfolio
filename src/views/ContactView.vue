@@ -1,8 +1,8 @@
 <template>
   <div class="contact">
     <div class="contact-wrapper">
-      <h1>Thank you for visiting!</h1>
-      <div class="links">
+      <h1 data-aos="fade-up">Thank you for visiting!</h1>
+      <div data-aos="fade-up" data-aos-delay="100" class="links">
         <button class="outline-btn width-wide" @click="portfoliopage()">
           View project
         </button>

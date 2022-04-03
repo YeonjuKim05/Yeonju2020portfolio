@@ -1,6 +1,8 @@
 <template>
   <div class="portfolio">
-    <div class="pf-title"><h1>International Bakery Shop</h1></div>
+    <div data-aos="fade-up" class="pf-title">
+      <h1>International Bakery Shop</h1>
+    </div>
     <div class="pf-image-banner-apopo">
       <img src="@/assets/images/Mockup-apopo-run.gif" alt="apopo" />
     </div>
@@ -24,7 +26,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           I chose bright colors and cute fonts to change the existing flat
           homepage layout. I took all the photos on the website myself.

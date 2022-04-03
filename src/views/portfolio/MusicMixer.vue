@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Music Mixer Player</h1></div>
-    <div class="pf-image-banner-apopo">
+    <div data-aos="fade-up" class="pf-image-banner-apopo">
       <img src="@/assets/images/music-4.png" alt="poster" />
     </div>
     <div class="pf-info">
@@ -23,7 +23,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           Using the drag-and-drop function, you can drag the block to
           automatically play the song and have fun visually. Look for a
