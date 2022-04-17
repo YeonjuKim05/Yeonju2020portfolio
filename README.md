@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Yeonju</h1>
 <h3 align="center">A interactive designer from Canada and Korea</h3>
 
-<h4 align='center'><a href="#">Instagram </a> • <a href="#">Blog</a> • <a href="yeonjukim0505.netlify.app">Portfolio</a> • <a href="https://www.linkedin.com/in/yeonjukim05">LinkedIn</a> </h4>
+<h4 align='center'><a href="#">Instagram </a> • <a href="#">Blog</a> • <a href="http://yeonjukim0505.netlify.app">Portfolio</a> • <a href="https://www.linkedin.com/in/yeonjukim05">LinkedIn</a> </h4>
 
 <p align='center'>Nice to meet you! My name is Yeonju. I'm currently studying and working as a developer and designer.<br> I'm from Korea, living in Korea currently and going to go Canada soon.
    
@@ -42,7 +42,7 @@
 ✔️ Twitter Timeline\
 ✔️ GitHub Profile
    
-To view a live example, **[click here](yeonjukim0505.netlify.app)**.
+To view a live example, **[click here](http://yeonjukim0505.netlify.app)**.
 
 <hr>
 
