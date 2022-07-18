@@ -15,3 +15,15 @@ new Vue({
   router,
   render: (h) => h(App),
 }).$mount("#app");
+
+const hamburger = document.querySelector(".hamburger");
+const burgermenu = document.querySelector(".burgermenu");
+
+hamburger.addEventListener("click", function () {
+  hamburger.classList.toggle("active");
+  burgermenu.classList.toggle("active");
+});
+burgermenu.addEventListener("click", function () {
+  hamburger.classList.toggle("active");
+  burgermenu.classList.toggle("active");
+});

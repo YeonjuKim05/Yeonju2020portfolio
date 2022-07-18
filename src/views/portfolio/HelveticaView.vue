@@ -38,7 +38,7 @@
       </div>
       <!-- <div class="banner-image"></div> -->
       <div class="banner-image-2-balm">
-        <img src="@/assets/images/poster-2.gif" alt="poster" />
+        <img src="@/assets/images/poster-3.png" alt="poster" />
       </div>
     </div>
     <div class="button-to-work">
@@ -52,7 +52,7 @@ export default {
   name: "HelveticaView",
   methods: {
     portfoliopage() {
-      this.$router.push("/HelveticaView");
+      this.$router.push("/WorkView");
     },
   },
 };

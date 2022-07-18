@@ -2,7 +2,7 @@
   <div class="portfolio">
     <div class="pf-title"><h1>Cutex Beer Bottle 3D</h1></div>
     <div data-aos="fade-up" class="pf-image-banner-beer">
-      <img src="@/assets/images/beer2.gif" alt="beer" />
+      <img src="@/assets/images/balm-23.jpg" alt="balm" />
     </div>
     <div class="pf-info">
       <div class="pf-col">
@@ -34,26 +34,26 @@
           with the theme of beer campaign events.
         </h1>
       </div>
-      <div class="banner-image-balm">
+      <div data-aos="fade-up" class="banner-image-balm">
         <img src="@/assets/images/balm-styleframe.png" alt="apopo" />
       </div>
-      <div class="banner-image-2-balm">
+      <div data-aos="fade-up" class="banner-image-2-balm">
         <img src="@/assets/images/balm-drawing-02.png" alt="fanshawe map" />
       </div>
-      <div class="two-images-beer">
+      <div data-aos="fade-up" class="two-images-beer">
         <div class="col1-image">
           <img src="@/assets/images/balm-label.gif" alt="apopo-mobile" />
         </div>
-        <div class="col1-image">
+        <div data-aos="fade-up" class="col1-image">
           <img src="@/assets/images/mendalbalm-sketch.png" alt="apopo-logo" />
         </div>
       </div>
 
-      <div class="banner-image-2-balm">
+      <div data-aos="fade-up" class="banner-image-2-balm">
         <img src="@/assets/images/facebook_image_3.jpg" alt="" />
         <!-- <h1>Jusy play<br />around<br />with colors!</h1> -->
       </div>
-      <div class="banner-image-beer-col3">
+      <div data-aos="fade-up" class="banner-image-beer-col3">
         <img src="@/assets/images/instagram_image_1.jpg" alt="" />
         <img src="@/assets/images/instagram_image_2.jpg" alt="" />
         <img src="@/assets/images/instagram_image_3.jpg" alt="" />

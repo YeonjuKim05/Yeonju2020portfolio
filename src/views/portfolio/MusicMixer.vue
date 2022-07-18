@@ -71,7 +71,7 @@ export default {
   name: "HelveticaView",
   methods: {
     portfoliopage() {
-      this.$router.push("/HelveticaView");
+      this.$router.push("/WorkView");
     },
     music() {
       window.open("https://github.com/YeonjuKim05/Kim_Y_MusicMixer.git");

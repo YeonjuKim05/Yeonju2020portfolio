@@ -9,9 +9,9 @@ $font-bold: 700;
 //color
 $black: #161616;
 $light-grey: #999999;
-$dark-grey: #595959;
+$dark-grey: #161616;
 $white: #eaeaea;
-$point-color: #999999;
+$point-color: #64ec6b;
 
 //style
 $footer-top-margin: 350px;
@@ -56,12 +56,14 @@ h1 {
 }
 
 a {
-  transition: 0.4s ease-in-out;
+  color: white;
+  transition: 0.3s ease-in-out;
   text-decoration: none;
 }
 
 a:hover {
   color: $point-color !important;
+  transform: translateY(5px);
 }
 
 //button
@@ -85,13 +87,17 @@ a:hover {
   overflow: hidden;
   position: relative;
   transition: 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 .outline-btn:hover {
   a {
     text-decoration: none;
-    color: $point-color;
   }
   border: 1.8px solid $point-color;
   transform: translate(8px, -10px);
+}
+
+.outline-btn p:hover {
+  color: $point-color;
 }

@@ -1,10 +1,10 @@
 <template>
   <div class="portfolio">
-    <div data-aos="fade-up" class="pf-title">
+    <div class="pf-title">
       <h1>International Bakery Shop</h1>
     </div>
-    <div class="pf-image-banner-apopo">
-      <img src="@/assets/images/Mockup-apopo-run.gif" alt="apopo" />
+    <div data-aos="fade-up" class="pf-image-banner-apopo">
+      <img src="@/assets/images/bread-2.png" alt="apopo" />
     </div>
     <div class="pf-info">
       <div class="pf-col">
@@ -29,13 +29,13 @@
       <div data-aos="fade-up" class="info-text">
         <h1>
           I chose bright colors and cute fonts to change the existing flat
-          homepage layout. I took all the photos on the website myself.
+          homepage layout. <br />I took all the photos on the website myself.
         </h1>
       </div>
       <button class="outline-btn width-wide" @click="bakery()">
         View project
       </button>
-      <div class="banner-image-apopo">
+      <div data-aos="fade-up" class="banner-image-apopo">
         <img src="@/assets/images/bakery-5.png" alt="apopo" />
       </div>
       <!-- <div class="two-images">

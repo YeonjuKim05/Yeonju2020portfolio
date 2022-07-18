@@ -1,8 +1,8 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Sports Visualization HUD</h1></div>
-    <div data-aos="fade-up" class="pf-image-banner">
-      <img src="@/assets/images/fanshawe-1.png" alt="fanshawe map" />
+    <div data-aos="fade-up" class="pf-image-banner-beer">
+      <img src="@/assets/images/Boxing-11.jpg" alt="fanshawe map" />
     </div>
     <div class="pf-info">
       <div class="pf-col">
@@ -23,7 +23,7 @@
       <div class="pf-col">
         <h5>My Contribution</h5>
         <p>Data illustration</p>
-        <p>UX/UI Design</p>
+        <p>HUD interface design</p>
       </div>
       <div class="pf-col">
         <h5>Timeline</h5>

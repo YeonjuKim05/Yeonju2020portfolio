@@ -11,11 +11,7 @@
       </div>
       <div class="pf-col">
         <h5>Contributor</h5>
-        <p>
-          Designer Yeonju Kim<a href="https://github.com/YeonjuKim05"
-            >Yeonju Kim</a
-          >
-        </p>
+        <p>Designer <a href="https://github.com/YeonjuKim05">Yeonju Kim</a></p>
       </div>
       <div class="pf-col">
         <h5>Timeline</h5>

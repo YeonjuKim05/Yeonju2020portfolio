@@ -27,7 +27,7 @@
 
 .work-card-list > a:hover img {
   transform: scale(1.5);
-  filter: brightness(60%);
+  filter: brightness(80%);
 }
 
 //card-hover
@@ -38,12 +38,18 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  border-bottom: 2px solid $white;
+
+  text-align: center;
 
   p {
     color: $white;
-    padding: 10px 20px;
-    font-size: 35px;
+    padding: 0 20px;
+    font-size: 1.5vw;
+  }
+
+  .design-type {
+    font-size: 1vw;
+    padding-bottom: 10px;
   }
 }
 

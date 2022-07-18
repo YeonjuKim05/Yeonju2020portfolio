@@ -12,14 +12,14 @@
   justify-content: space-between;
 }
 
-nav li {
+.wide-menu li {
   text-align: right;
+  float: right;
   list-style: none;
-  width: 180px;
+  margin-left: 6vw;
 }
 
 nav a {
-  width: 100px;
   font-weight: lighter;
   color: $white;
   font-size: 18px;
@@ -30,4 +30,128 @@ nav a {
 
 nav a.router-link-exact-active {
   font-weight: bold;
+}
+
+.burgermenu {
+  display: none;
+}
+
+.hamburger {
+  color: white;
+  font-size: 20px;
+  display: none;
+  position: relative;
+  z-index: 1;
+  user-select: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  position: relative;
+  background-color: white;
+  border-radius: 6px;
+  z-index: 1;
+  transform-origin: 0 0;
+  transition: 0.4s;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding-top: 20px !important;
+  }
+
+  .hamburger {
+    font-size: 15px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .hamburger p:visited {
+    color: $dark-grey;
+  }
+
+  .wide-menu {
+    display: none;
+  }
+
+  .logo img {
+    width: 65px;
+  }
+
+  .burgermenu {
+    display: block;
+    position: fixed;
+    top: 20%;
+    z-index: 1;
+    height: 340px;
+    width: 200px;
+    left: 100%;
+    list-style: none;
+    display: block;
+    transition: 250ms ease-in-out;
+    background-color: $point-color;
+    padding: 18px 0;
+  }
+
+  .active {
+    left: 0;
+  }
+
+  .burgermenu a {
+    color: $dark-grey;
+  }
+
+  .burgermenu li {
+    margin: 15px 18px;
+    text-align: left;
+  }
+
+  .hamburger:hover span:nth-child(2) {
+    transform: translateX(10px);
+    background-color: $point-color;
+  }
+
+  .hamburger.is-active span:nth-child(1) {
+    transform: translate(0px, -2px) rotate(45deg);
+  }
+
+  .hamburger.is-active span:nth-child(2) {
+    opacity: 0;
+    transform: translate(15px);
+  }
+
+  .hamburger.is-active span:nth-child(3) {
+    transform: translate(-3px, 3px) rotate(-45deg);
+  }
+
+  .hamburger.is-active:hover span {
+    background-color: $point-color;
+  }
+
+  .personal-info {
+    margin-top: 80px;
+    padding-left: 18px;
+    font-size: 14px;
+    color: $dark-grey;
+    font-weight: lighter;
+  }
 }

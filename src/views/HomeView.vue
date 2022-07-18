@@ -7,18 +7,17 @@
           <span class="h1-2">Yeonju Kim</span>
           <br />
           My main interests include
-          <span class="h1-2">UX/UI designer</span>,<br />
+          <span class="h1-2">UX/UI designer</span>,
           <span class="h1-2">Web development</span>, and
-          <span class="h1-2">Graphic design</span>.<br />
-          I am willing to take on challenges in any project<br />
-          which makes me grow up! I always welcome new <br />experiences and
-          share diverse perspectives.
+          <span class="h1-2">Graphic design</span>. I am willing to take on
+          chellenges in any project which makes me grow up! I always welcome new
+          experiences and share diverse perspectives.
         </h1>
       </div>
 
       <div class="profile">
         <div data-aos="fade-up" class="profile-img">
-          <img src="@/assets/images/yeonju.png" alt="profile-image" />
+          <img src="@/assets/images/yeonju.jpg" alt="profile-image" />
         </div>
 
         <div class="profile-text">

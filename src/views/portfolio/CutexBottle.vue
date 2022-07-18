@@ -34,7 +34,7 @@
           with the theme of beer campaign events.
         </h1>
       </div>
-      <div class="two-images-beer">
+      <div data-aos="fade-up" class="two-images-beer">
         <div class="col1-image-beer">
           <img src="@/assets/images/beer-logo-move.gif" alt="apopo-mobile" />
         </div>
@@ -42,14 +42,14 @@
           <img src="@/assets/images/beer-8.gif" alt="apopo-logo" />
         </div>
       </div>
-      <div class="banner-image-beer">
+      <div data-aos="fade-up" class="banner-image-beer">
         <img src="@/assets/images/beer-10.png" alt="apopo" />
       </div>
-      <div class="banner-image-2-beer">
+      <div data-aos="fade-up" class="banner-image-2-beer">
         <img src="@/assets/images/beer1.gif" alt="fanshawe map" />
         <!-- <h1>Jusy play<br />around<br />with colors!</h1> -->
       </div>
-      <div class="banner-image-beer-col3">
+      <div data-aos="fade-up" class="banner-image-beer-col3">
         <img src="@/assets/images/beer-5.png" alt="apopo" />
         <img src="@/assets/images/beer-6.png" alt="apopo" />
         <img src="@/assets/images/beer-7.png" alt="apopo" />

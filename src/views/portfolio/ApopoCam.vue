@@ -46,7 +46,7 @@
           oppose the war by donating to this organization.
         </h1>
       </div>
-      <div class="two-images">
+      <div data-aos="fade-up" data-aos-delay="100" class="two-images">
         <div class="col1-image-apopo">
           <img src="@/assets/images/apopo_1.gif" alt="apopo-mobile" />
         </div>
@@ -54,17 +54,17 @@
           <img src="@/assets/images/apopo-grain-logo-2.gif" alt="apopo-logo" />
         </div>
       </div>
-      <div class="banner-image-apopo">
+      <div data-aos="fade-up" class="banner-image-apopo">
         <img src="@/assets/images/apopo-5.png" alt="apopo" />
       </div>
-      <div class="info-text">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           Participants can check their tracks in real time<br />
           and access the location of the person they followed. <br />
           And participants are free to donate at any time.
         </h1>
       </div>
-      <div class="banner-image-2-apopo">
+      <div data-aos="fade-up" data-aos-delay="100" class="banner-image-2-apopo">
         <img src="@/assets/images/apopo-04-03.png" alt="fanshawe map" />
       </div>
     </div>
