@@ -10,5 +10,8 @@
 import HeaderView from "./components/HeaderView";
 import FooterView from "./components/FooterView";
 
-export default { name: "App", components: { HeaderView, FooterView } };
+export default {
+  name: "App",
+  components: { HeaderView, FooterView },
+};
 </script>

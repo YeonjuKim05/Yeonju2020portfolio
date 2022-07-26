@@ -2,7 +2,7 @@
   <div class="portfolio">
     <div class="pf-title"><h1>Chat Application</h1></div>
     <div data-aos="fade-up" class="pf-image-banner-chat">
-      <img src="@/assets/images/chat-banner.png" alt="fanshawe map" />
+      <img src="@/assets/images/chat-banner.png" alt="chatapp" />
     </div>
     <div class="pf-info">
       <div class="pf-col">

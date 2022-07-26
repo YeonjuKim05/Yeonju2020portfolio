@@ -7,15 +7,15 @@
     <div class="pf-info">
       <div class="pf-col">
         <h5>Project Type</h5>
-        <p>Fanshawe College Map design</p>
+        <p>Fanshawe Map design</p>
       </div>
       <div class="pf-col">
         <h5>Contributor</h5>
-        <p>
-          Designer Yeonju Kim<a href="https://github.com/YeonjuKim05"
-            >Yeonju Kim</a
-          >
-        </p>
+        <p>Designer <a href="https://github.com/YeonjuKim05">Yeonju Kim</a></p>
+      </div>
+      <div class="pf-col">
+        <h5>My Contribution</h5>
+        <p>Map/Icon Design</p>
       </div>
       <div class="pf-col">
         <h5>Timeline</h5>
@@ -29,10 +29,9 @@
           It is designed to make it easy for people to find the complex
           structure of the school. I redesigned the existing map and emphasized
           the unity of the design so that it does not look as complicated as
-          possible. I tried to obtain traffic information by referring to Google
-          Maps and to obtain all the more necessary information for students and
-          visitors at a glance using pictograms and icons for various
-          convenience facilities.
+          possible. I added all the more necessary information for students and
+          visitors using pictograms and icons for various convenience
+          facilities.
         </h1>
       </div>
       <div class="two-images">
@@ -44,6 +43,9 @@
         </div>
       </div>
       <!-- <div class="banner-image"></div> -->
+      <div class="banner-image-2">
+        <img src="@/assets/images/map-mockup2.png" alt="fanshawe map" />
+      </div>
       <div class="banner-image-2">
         <img src="@/assets/images/map-ap.gif" alt="fanshawe map" />
       </div>

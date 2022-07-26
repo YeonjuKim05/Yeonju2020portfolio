@@ -1,7 +1,7 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Hevetica Poster</h1></div>
-    <div data-aos="fade-up" class="pf-image-banner-beer">
+    <div data-aos="fade-up" class="pf-image-banner">
       <img src="@/assets/images/poster.png" alt="poster" />
     </div>
     <div class="pf-info">
@@ -20,7 +20,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div data-aos="fade-up" class="info-text">
+      <div data-aos="fade-up" class="info-text" style="width: 70vw">
         <h1>
           After watching the documentary of Helvetica, I learned the birth of
           the font and the power of this font. As shown in the poster,
@@ -28,17 +28,25 @@
           steadily for more than 60 years.
         </h1>
       </div>
-      <div class="two-images">
-        <div class="col1-image">
-          <img src="@/assets/images/poster-3.gif" alt="fanshawe map" />
-        </div>
-        <div class="col1-image">
-          <img src="@/assets/images/poster-2.gif" alt="fanshawe map" />
-        </div>
+
+      <div data-aos="fade-up" class="banner-image-beer-col3">
+        <img src="@/assets/images/hel-poster.jpg" alt="poster" />
+        <img src="@/assets/images/hel-poster2.jpg" alt="poster" />
+        <img src="@/assets/images/hel-poster3.jpg" alt="poster" />
       </div>
+
       <!-- <div class="banner-image"></div> -->
       <div class="banner-image-2-balm">
-        <img src="@/assets/images/poster-2.gif" alt="poster" />
+        <img src="@/assets/images/poster-3.png" alt="poster" />
+      </div>
+
+      <div class="two-images">
+        <div class="col1-image">
+          <img src="@/assets/images/poster-3.gif" alt="poster" />
+        </div>
+        <div class="col1-image">
+          <img src="@/assets/images/poster-2.gif" alt="poster" />
+        </div>
       </div>
     </div>
     <div class="button-to-work">
@@ -52,7 +60,7 @@ export default {
   name: "HelveticaView",
   methods: {
     portfoliopage() {
-      this.$router.push("/HelveticaView");
+      this.$router.push("/WorkView");
     },
   },
 };

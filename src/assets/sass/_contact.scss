@@ -24,5 +24,28 @@
 }
 
 .width-wide {
-  width: 360px;
+  width: 350px;
+  transition: 0.4s ease-in-out;
+}
+
+.width-wide:hover {
+  transform: translate(10px, -20px) !important;
+  color: $point-color;
+}
+
+@media (max-width: 800px) {
+  .contact-wrapper {
+    h1 {
+      font-size: 40px;
+      color: $white;
+    }
+    .links {
+      gap: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-around;
+      padding-top: 40px;
+    }
+  }
 }

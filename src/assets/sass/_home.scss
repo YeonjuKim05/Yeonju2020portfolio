@@ -1,15 +1,16 @@
 //main head text
 
 .mainText {
-  width: 1088px;
+  max-width: 75vw;
   h1 {
+    line-height: 3.7vw;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 3vw;
     color: $light-grey;
   }
   .h1-2 {
     font-weight: 500;
-    font-size: 50px;
+    font-size: 3.5vw;
     color: $white;
   }
   padding-bottom: 210px;
@@ -28,9 +29,10 @@
     img {
       width: 100%;
     }
+
     flex-basis: 1200px;
     width: 1080px;
-    height: 728px;
+    height: auto;
     background-color: $dark-grey;
   }
 }
@@ -45,20 +47,139 @@
 
 .profile-year {
   font-weight: $font-light;
-  font-size: 20px;
+  font-size: 1rem;
   color: $light-grey;
 }
 
 .profile-degree {
   font-weight: 600;
-  font-size: 26px;
+  font-size: 2rem;
   color: $white;
 }
 
 .profile-program {
   font-weight: $font-light;
-  font-size: 22px;
+  font-size: 1.5rem;
   color: $white;
-  line-height: 1.2 !important;
+
   margin-top: 12px !important;
+}
+
+.portfolio-sec {
+  padding-top: 20vw;
+}
+
+.title-box {
+  border: 1px solid $point-color;
+  padding: 8px 8px;
+  // margin-left: 1px;
+  max-width: 260px !important;
+  // margin-top: 60px;
+  margin-bottom: 50px;
+  background-color: $point-color;
+  text-align: center;
+  border-radius: 8px;
+  color: $dark-grey;
+}
+
+// .title-box {
+//   max-width: 260px !important;
+//   // margin-top: 60px;
+//   margin-bottom: 50px;
+
+//   text-align: left;
+//   border-radius: 8px;
+//   color: $point-color;
+// }
+
+.point-title {
+  // color: $black !important;
+  color: $black;
+  font-weight: 600;
+  font-size: 1rem;
+  a {
+    padding-top: 20px;
+  }
+}
+
+.portfolio-home {
+  padding-top: 200px;
+}
+
+@media (max-width: 950px) {
+  .profile {
+    flex-wrap: wrap;
+  }
+
+  .profile .profile-img {
+    height: auto;
+    margin-bottom: 25vw;
+  }
+
+  .home h1 {
+    font-size: 5.6vw;
+    line-height: 1.2em;
+  }
+
+  .home .h1-2 {
+    font-size: 5.6vw;
+  }
+
+  .home {
+    margin-top: 140px;
+  }
+
+  .mainText {
+    padding-bottom: 80px;
+  }
+
+  .profile-text {
+    margin: 0;
+    margin-top: 80px;
+  }
+
+  .profile-text {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .home h1 {
+    font-size: 7vw;
+    line-height: 1.3em;
+  }
+  .home .h1-2 {
+    font-size: 7vw;
+  }
+
+  .col-1 {
+    margin-bottom: 30px !important;
+  }
+  .profile-year {
+    font-size: 3.8vw;
+  }
+  .profile-degree {
+    font-size: 7vw;
+  }
+
+  .profile-program {
+    font-size: 5vw;
+    margin-top: 6px !important;
+  }
+
+  .title-box {
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 30px;
+    max-width: 100% !important;
+  }
+
+  .point-title {
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.8rem;
+    a {
+      padding-top: 20px;
+    }
+  }
 }
