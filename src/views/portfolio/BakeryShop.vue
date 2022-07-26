@@ -3,19 +3,28 @@
     <div class="pf-title">
       <h1>International Bakery Shop</h1>
     </div>
-    <div data-aos="fade-up" class="pf-image-banner-apopo">
-      <img src="@/assets/images/bread-2.png" alt="apopo" />
+    <div data-aos="fade-up" class="pf-image-banner">
+      <img src="@/assets/images/bread-2.png" alt="Bakery" />
     </div>
     <div class="pf-info">
       <div class="pf-col">
         <h5>Project Type</h5>
-        <p>Bakery Web design</p>
+        <p>Bakery shop Web design</p>
+        <p>
+          <a
+            href="https://github.com/YeonjuKim05/International-bakery.git"
+            target="_blank"
+            >Code link</a
+          >
+        </p>
       </div>
       <div class="pf-col">
         <h5>Contributor</h5>
         <p>
           Designer/Developer
-          <a href="https://github.com/YeonjuKim05">Yeonju Kim</a>
+          <a href="https://github.com/YeonjuKim05" target="_blank"
+            >Yeonju Kim</a
+          >
         </p>
       </div>
 
@@ -28,27 +37,50 @@
     <div class="pf-info-2">
       <div data-aos="fade-up" class="info-text">
         <h1>
-          I chose bright colors and cute fonts to change the existing flat
-          homepage layout. <br />I took all the photos on the website myself.
+          The International Bakery Shop seeks a bright and cute image and tries
+          to approach consumers in a friendly manner. We purchased and filmed
+          the product according to the brand's characteristics.
         </h1>
       </div>
-      <button class="outline-btn width-wide" @click="bakery()">
+
+      <!-- <button class="outline-btn width-wide" @click="bakery()">
         View project
-      </button>
+      </button> -->
       <div data-aos="fade-up" class="banner-image-apopo">
-        <img src="@/assets/images/bakery-5.png" alt="apopo" />
+        <img src="@/assets/images/0011.png" alt="Bakery" />
+      </div>
+
+      <div class="two-images">
+        <div class="col1-image">
+          <img src="@/assets/images/01.png" alt="bakery" />
+        </div>
+        <div class="col1-image">
+          <img src="@/assets/images/02.png" alt="bakery" />
+        </div>
+      </div>
+
+      <div data-aos="fade-up" class="banner-image-balm">
+        <img src="@/assets/images/bakery-proposal.png" alt="bakery" />
+      </div>
+      <div class="two-images" style="margin-top: 100px">
+        <div class="col1-image">
+          <img src="@/assets/images/bakery-mockup.png" alt="bakery" />
+        </div>
+        <div class="col1-image">
+          <img src="@/assets/images/bakery-mockup2.png" alt="bakery" />
+        </div>
       </div>
       <!-- <div class="two-images">
         <div class="col1-image-apopo">
-          <img src="@/assets/images/bakery-2.png" alt="apopo-mobile" />
+          <img src="@/assets/images/bakery-2.png" alt="Bakery" />
         </div>
         <div class="col1-image">
-          <img src="@/assets/images/bakery-1.png" alt="apopo-logo" />
+          <img src="@/assets/images/bakery-1.png" alt="Bakery" />
         </div>
       </div> -->
 
       <!-- <div class="banner-image-2-apopo">
-        <img src="@/assets/images/apopo-04-03.png" alt="fanshawe map" />
+        <img src="@/assets/images/apopo-04-03.png" alt="Bakery" />
       </div> -->
     </div>
     <div class="button-to-work">

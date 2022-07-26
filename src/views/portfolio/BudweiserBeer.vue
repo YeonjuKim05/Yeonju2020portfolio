@@ -1,13 +1,13 @@
 <template>
   <div class="portfolio">
     <div class="pf-title"><h1>Budweiser Promotion</h1></div>
-    <div data-aos="fade-up" class="pf-image-banner-beer">
-      <img src="@/assets/images/budweiser-banner.png" alt="poster" />
+    <div data-aos="fade-up" class="pf-image-banner">
+      <img src="@/assets/images/budweiser-banner.png" alt="budweiser" />
     </div>
     <div class="pf-info">
       <div class="pf-col">
         <h5>Project Type</h5>
-        <p>Budweiser web design</p>
+        <p>Desktop website</p>
       </div>
       <div class="pf-col">
         <h5>Contributor</h5>
@@ -31,7 +31,7 @@
           in an easy-to-understand manner.
         </h1>
       </div>
-      <div class="banner-image-apopo" style="padding-top: 180px">
+      <div class="banner-image-apopo">
         <img src="@/assets/images/budweiser-1.png" alt="budweiser" />
       </div>
       <!-- <div class="two-images">
@@ -44,7 +44,7 @@
         <div class="col1-image-beer">
           <img
             src="@/assets/images/YeonjuKim_budweiser-banner.png"
-            alt="apopo-logo"
+            alt="budweiser"
           />
         </div>
       </div> -->

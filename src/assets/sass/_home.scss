@@ -1,11 +1,11 @@
 //main head text
 
 .mainText {
-  width: 100%;
+  max-width: 75vw;
   h1 {
-    line-height: 4vw;
+    line-height: 3.7vw;
     font-weight: 300;
-    font-size: 3.5vw;
+    font-size: 3vw;
     color: $light-grey;
   }
   .h1-2 {
@@ -29,6 +29,7 @@
     img {
       width: 100%;
     }
+
     flex-basis: 1200px;
     width: 1080px;
     height: auto;
@@ -66,6 +67,43 @@
 
 .portfolio-sec {
   padding-top: 20vw;
+}
+
+.title-box {
+  border: 1px solid $point-color;
+  padding: 8px 8px;
+  // margin-left: 1px;
+  max-width: 260px !important;
+  // margin-top: 60px;
+  margin-bottom: 50px;
+  background-color: $point-color;
+  text-align: center;
+  border-radius: 8px;
+  color: $dark-grey;
+}
+
+// .title-box {
+//   max-width: 260px !important;
+//   // margin-top: 60px;
+//   margin-bottom: 50px;
+
+//   text-align: left;
+//   border-radius: 8px;
+//   color: $point-color;
+// }
+
+.point-title {
+  // color: $black !important;
+  color: $black;
+  font-weight: 600;
+  font-size: 1rem;
+  a {
+    padding-top: 20px;
+  }
+}
+
+.portfolio-home {
+  padding-top: 200px;
 }
 
 @media (max-width: 950px) {
@@ -127,5 +165,21 @@
   .profile-program {
     font-size: 5vw;
     margin-top: 6px !important;
+  }
+
+  .title-box {
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 30px;
+    max-width: 100% !important;
+  }
+
+  .point-title {
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.8rem;
+    a {
+      padding-top: 20px;
+    }
   }
 }

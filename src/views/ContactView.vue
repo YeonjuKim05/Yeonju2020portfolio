@@ -4,14 +4,16 @@
       <h1 data-aos="fade-up">Thank you for visiting!</h1>
       <div class="links">
         <button
+          style="text-align: center"
           class="outline-btn width-wide"
           data-aos="fade-up"
           data-aos-delay="100"
           @click="portfoliopage()"
         >
-          View project
+          View Project
         </button>
         <button
+          style="text-align: center"
           data-aos="fade-up"
           data-aos-delay="300"
           class="outline-btn width-wide"
@@ -20,6 +22,7 @@
           LinkedIn
         </button>
         <button
+          style="text-align: center"
           data-aos="fade-up"
           data-aos-delay="500"
           class="outline-btn width-wide"

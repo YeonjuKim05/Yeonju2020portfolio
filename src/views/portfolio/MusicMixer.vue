@@ -2,7 +2,7 @@
   <div class="portfolio">
     <div class="pf-title"><h1>Music Mixer Player</h1></div>
     <div data-aos="fade-up" class="pf-image-banner-apopo">
-      <img src="@/assets/images/music-4.png" alt="poster" />
+      <img src="@/assets/images/music-4.png" alt="Music Mixer" />
     </div>
     <div class="pf-info">
       <div class="pf-col">
@@ -35,10 +35,10 @@
       </button>
       <div class="two-images">
         <div class="col1-image">
-          <img src="@/assets/images/movingtitle2.gif" alt="movingtitle" />
+          <img src="@/assets/images/movingtitle2.gif" alt="Music Mixer" />
         </div>
         <div class="col1-image">
-          <img src="@/assets/images/music-3.png" alt="movingtitle" />
+          <img src="@/assets/images/music-3.png" alt="Music Mixer" />
         </div>
       </div>
       <div class="banner-image-music">

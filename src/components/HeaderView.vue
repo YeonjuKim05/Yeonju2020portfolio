@@ -7,16 +7,18 @@
     </div>
     <nav>
       <div class="wide-menu">
-        <li><router-link to="/">ABOUT</router-link></li>
-        <li><router-link to="/WorkView">WORK</router-link></li>
-        <li><router-link to="/ContactView">CONTACT</router-link></li>
         <li>
           <a
             href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c143d7a7-bffe-3159-b345-3812de7617e6"
+            target="_blank"
             >RESUME</a
           >
           >
         </li>
+
+        <li><router-link to="/ContactView">CONTACT</router-link></li>
+        <li><router-link to="/WorkView">WORK</router-link></li>
+        <li><router-link to="/">ABOUT</router-link></li>
       </div>
       <div class="burgermenu">
         <li><router-link to="/">ABOUT</router-link></li>
@@ -25,6 +27,7 @@
         <li>
           <a
             href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:c143d7a7-bffe-3159-b345-3812de7617e6"
+            target="_blank"
             >RESUME</a
           >
         </li>
