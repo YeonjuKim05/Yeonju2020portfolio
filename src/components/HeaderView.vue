@@ -13,7 +13,6 @@
             target="_blank"
             >RESUME</a
           >
-          >
         </li>
 
         <li><router-link to="/ContactView">CONTACT</router-link></li>

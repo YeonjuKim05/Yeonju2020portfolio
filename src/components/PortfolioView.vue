@@ -14,17 +14,6 @@
         >
       </div>
 
-      <!--BudweiserBeer-->
-      <div data-aos="fade-up" class="work-card-list">
-        <router-link to="/portfolio/BudweiserBeer">
-          <img src="@/assets/images/budweiser-2.png" alt="budweiser" />
-          <div class="card-hover">
-            <p>Budweiser</p>
-            <p class="design-type">Web Design</p>
-          </div></router-link
-        >
-      </div>
-
       <!-- 3D BEER -->
       <div data-aos="fade-up" class="work-card-list">
         <router-link to="/portfolio/CutexBottle">
@@ -46,7 +35,16 @@
           </div></router-link
         >
       </div>
-
+      <!--BudweiserBeer-->
+      <div data-aos="fade-up" class="work-card-list">
+        <router-link to="/portfolio/BudweiserBeer">
+          <img src="@/assets/images/budweiser-2.png" alt="budweiser" />
+          <div class="card-hover">
+            <p>Budweiser</p>
+            <p class="design-type">Web Design</p>
+          </div></router-link
+        >
+      </div>
       <!--SPORTS VIS -->
       <div data-aos="fade-up" class="work-card-list">
         <router-link to="/portfolio/SportVis">

@@ -17,6 +17,7 @@
         >
       </li>
       <li><a href="mailto:kyeonjoo05@gmail.com">EMAIL</a></li>
+      <li><a href="tel:437-255-9778">PHONE</a></li>
     </div>
   </div>
 </template>

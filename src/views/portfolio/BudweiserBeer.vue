@@ -7,7 +7,7 @@
     <div class="pf-info">
       <div class="pf-col">
         <h5>Project Type</h5>
-        <p>Desktop website</p>
+        <p>Desktop Web Landing Page</p>
       </div>
       <div class="pf-col">
         <h5>Contributor</h5>

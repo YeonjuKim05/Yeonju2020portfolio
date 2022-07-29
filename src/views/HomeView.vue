@@ -41,7 +41,7 @@
           </div>
 
           <div class="col-1">
-            <p class="profile-year">2015-2015</p>
+            <p class="profile-year">2015-2016</p>
             <p class="profile-degree">Internship</p>
             <p class="profile-program">
               Graphic Designer at Design Agency in Seoul, South Korea
@@ -53,6 +53,13 @@
             <p class="profile-degree">Graphic Designer</p>
             <p class="profile-program">
               Graphic Designer at Video Production Agency in Seoul, South Korea
+            </p>
+          </div>
+          <div class="col-1">
+            <p class="profile-year">2020-2020</p>
+            <p class="profile-degree">Graphic Designe Course</p>
+            <p class="profile-program">
+              2 Semester Graphic design at Fanshawe in Canada
             </p>
           </div>
 

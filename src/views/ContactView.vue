@@ -29,6 +29,14 @@
         >
           <a href="mailto:kyeonjoo05@gmail.com">Email</a>
         </button>
+        <button
+          style="text-align: center"
+          data-aos="fade-up"
+          data-aos-delay="500"
+          class="outline-btn width-wide"
+        >
+          <a href="tel:437-255-9778">Phone</a>
+        </button>
       </div>
     </div>
   </div>

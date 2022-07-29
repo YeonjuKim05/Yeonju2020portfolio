@@ -30,6 +30,7 @@ nav a {
 
 nav a.router-link-exact-active {
   font-weight: bold;
+  color: $point-color;
 }
 
 .burgermenu {
@@ -40,7 +41,7 @@ nav a.router-link-exact-active {
   p {
     font-size: 15px;
   }
-  color: white;
+  color: $white;
   font-size: 20px;
   display: none;
   position: relative;
@@ -126,6 +127,9 @@ nav a.router-link-exact-active {
   .burgermenu li {
     margin: 15px 18px;
     text-align: left;
+  }
+  .burgermenu.active a {
+    color: $dark-grey;
   }
 
   .hamburger:hover span:nth-child(2) {

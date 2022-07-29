@@ -20,7 +20,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div data-aos="fade-up" class="info-text" style="width: 70vw">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           After watching the documentary of Helvetica, I learned the birth of
           the font and the power of this font. As shown in the poster,

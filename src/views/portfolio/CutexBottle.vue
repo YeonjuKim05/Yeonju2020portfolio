@@ -109,15 +109,17 @@
 
       <div data-aos="fade-up" class="info-text" style="margin: 70px 0">
         <h1>
-          Understanding the original design concept of Tetley's,<br />
-          I designed posters to promote beer brand products.
+          Understanding the original design concept of Tetley's, I designed
+          posters to promote beer brand products.
         </h1>
       </div>
 
       <div data-aos="fade-up" class="banner-image-beer-col3">
-        <img src="@/assets/images/beer-5.png" alt="beer" />
-        <img src="@/assets/images/beer-6.png" alt="beer" />
-        <img src="@/assets/images/beer-7.png" alt="beer" />
+        <div>
+          <img src="@/assets/images/beer-5.png" alt="beer" />
+        </div>
+        <div><img src="@/assets/images/beer-6.png" alt="beer" /></div>
+        <div><img src="@/assets/images/beer-7.png" alt="beer" /></div>
       </div>
 
       <div class="two-images" data-aos="fade-up">

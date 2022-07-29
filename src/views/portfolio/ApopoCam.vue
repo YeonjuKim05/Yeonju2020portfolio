@@ -50,7 +50,7 @@
     </div>
 
     <div class="pf-info-2">
-      <div data-aos="fade-up" class="info-text" style="width: 70vw">
+      <div data-aos="fade-up" class="info-text">
         <h1>
           Our team carried out a campaign project by an organization called
           APOPO of NGO. Apopo, which trains rats to detect landmines
